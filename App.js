@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import './style.css';
+
 
 import Authentication from './screens/Authenticantion/Authentication';
 
@@ -11,6 +11,7 @@ export default function App(){
 
 const styles = StyleSheet.create({
     flex: 1,
-    backgroundColor: '#3CB371',
+    backgroundColor: '#0077FF',
+    textAlign: 'center'
     
 });
